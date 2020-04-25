@@ -20,7 +20,7 @@
 
 body {
   color: #444444;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 a {
@@ -1052,6 +1052,7 @@ section {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
+  margin-top: 8%;
 }
 
 .team .member .pic {
@@ -1060,7 +1061,7 @@ section {
 }
 
 .team .member img {
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s; 
 }
 
 .team .member:hover img {
